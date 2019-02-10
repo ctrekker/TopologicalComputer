@@ -36,3 +36,25 @@ class TopoVector2D(Vector2D):
     def __init__(self, x, y, radius):
         super().__init__(x, y)
         self.radius = radius
+
+class VectorND:
+    @staticmethod
+    def add(u, v):
+        return u + v
+
+    @staticmethod
+    def subtract(u, v):
+        return u - v
+
+    @staticmethod
+    def dot_product(u, v):
+        return u.dot(v)
+
+    @staticmethod
+    def magnitude(u):
+        return u.dot(u)**(1/2)
+
+    @staticmethod
+    # project u onto v
+    def project(u, v):
+        return (u.dot(v) / v.dot(v)) * v
