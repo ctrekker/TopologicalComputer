@@ -28,7 +28,6 @@ def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, lengt
 
 size = 300
 gradient = np.fromfunction(np.vectorize(lambda x: -abs(x-size/2)+size/2+(1/100.0)*((x-size/2))**2), (size,), dtype=np.float32)
-# gradient = np.random.rand(size) * 50
 in_arr = np.random.random(gradient.shape).astype(dtype=np.float32)
 in_arr = (in_arr - np.mean(in_arr)) / np.std(in_arr)
 
@@ -76,8 +75,8 @@ terrain_modification = True
 terrain_effect_factor = 0.01
 zero_magnitude_threshold = 0.03
 
-outfile = open('latest.csv', 'w+')
-terrain_graph_file = open('terrain_graph.csv', 'w+')
+signal_graph_file = open('E:/latest.csv', 'w+')
+terrain_graph_file = open('E:/terrain_graph.csv', 'w+')
 
 csv_line = ''
 for signal_index in range(len(signals)):
@@ -145,9 +144,9 @@ for frame_number in range(frame_count):
         if terrain_point_index != len(gradient)-1:
             terrain_csv_line += ','
 
-    outfile.write(csv_line+'\n')
+    signal_graph_file.write(csv_line + '\n')
     csv_line = ''
     terrain_graph_file.write(terrain_csv_line+'\n')
     terrain_csv_line = ''
 
-outfile.close()
+signal_graph_file.close()
