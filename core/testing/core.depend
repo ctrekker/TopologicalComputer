@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549828984 source:c:\users\ctrek\documents\programming\topologicalcomputer\core\core\main.cpp
+	<iostream>
+	<chrono>
+	<sstream>
+
