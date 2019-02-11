@@ -6,11 +6,11 @@ def main():
     test_dist()
 
 def test_dist():
-    '''Testing function for the dist methods within the calc core module
-    
-    Creates two arrays of random nth dimensional vectors and uses the 
+    """Testing function for the dist methods within the calc core module
+
+    Creates two arrays of random nth dimensional vectors and uses the
     calc.dist_batch method to calculate and get the distances between
-    all the points'''
+    all the points"""
     quantity = 1000000
     rand_min = -100
     rand_max = 100
