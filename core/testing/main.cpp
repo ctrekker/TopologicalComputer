@@ -88,10 +88,17 @@ void test_distance_formula() {
         cout << v_vectors[0][i] << ",";
     }
     cout << ">";
-    cout << " = " << results[0] << endl;}
+    cout << " = " << results[0] << endl;
+}
+void test_neighboring_points() {
+    const int quantity = 1000000;
+    const int dim = 3;
+    double pos[quantity][dim];
+}
 int main()
 {
-    test_distance_formula();
+//    test_distance_formula();
+    test_neighboring_points();
 
     return 0;
 }

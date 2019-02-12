@@ -23,3 +23,27 @@ double * dist_batch(double a[], double b[], const int dim, const int total_size)
     }
     return distances;
 }
+int * neighboring_points(double coords[], int dim) {
+    int i = (int)(pow(2, dim) - 1);
+    int *placeholders = new int[dim];
+    int *int_pos = new int[dim];
+    int *signs = new int[dim];
+
+    int *points = new int[dim * (i+1)];
+
+    for(int a=0; a<dim; a++) {
+        int_pos[a] = (int)coords[a];
+        placeholders[a] = pow(2, a);
+        signs[a] = 0;
+        if(int_pos[a] < 0) signs[a] = -1;
+        else if(int_pos[a] > 0) signs[a] = 1;
+    }
+    for(int a=0; a<i+1; a++) {
+        int *index = new int[dim];
+
+        for(int digit=0; digit<dim; digit++) {
+            points[a * dim + digit] = int_pos[digit] + ((a & placeholders[digit]) >> digit) * signs[digit];
+        }
+    }
+    return points;
+}

@@ -3,7 +3,8 @@ import util
 import numpy as np
 
 def main():
-    test_dist()
+    # test_dist()
+    test_neighboring()
 
 def test_dist():
     """Testing function for the dist methods within the calc core module
@@ -49,6 +50,13 @@ def test_dist():
     print('Result: '+str(batch[0]))
 
     # print(calc.dist(a, b, 3))
+
+def test_neighboring():
+    dim = 3
+    pos = util.intArray(np.random.random((dim,))*200-100)
+    out = calc.intArray_frompointer(calc.neighboring_points(pos, dim))
+    for i in range(2**dim):
+        util.print_array(out, 3, start=i*dim)
 
 if __name__ == '__main__':
     main()

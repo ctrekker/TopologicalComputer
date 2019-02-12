@@ -43,12 +43,24 @@ def doubleArray(arr):
     for b in range(len(arr)):
         a[b] = arr[b]
     return a
+def intArray(arr):
+    a = calc.doubleArray(len(arr))
+    for b in range(len(arr)):
+        a[b] = arr[b]
+    return a
+def print_array(arr, length, start=0):
+    sys.stdout.write('[')
+    for i in range(start, start+length):
+        sys.stdout.write(str(arr[i])+',')
+    sys.stdout.write(']\n')
 
 def dist(a, b):
     """Calculates the distance between two points
 
     Both inputs must be of the same
-    length, and should also only be 1 dimensional"""
+    length, and should also only be 1 dimensional
+
+    NOTE: This should only be used for testing. Use C++ binding for prod"""
     c = a-b
     return np.sqrt(np.dot(c, c))
 
@@ -56,7 +68,9 @@ def neighboring_points(pos):
     """Finds all neighboring points to a position and performs an operation on them
 
     To see more details, visit the TopologicalComputer notebook and see
-    Planning > GradientND > Terrain Modification"""
+    Planning > GradientND > Terrain Modification
+
+    NOTE: This should only be used for testing. Use C++ binding for prod"""
 
     int_pos = pos.astype(np.int32).tolist()
     n = len(int_pos)
