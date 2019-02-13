@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/burnscoding/tc/Renderer.java" line="92" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a96e507-c966-412b-bdea-8b366f017bb4" name="Default Changelist" comment="" />
+    <list default="true" id="2a96e507-c966-412b-bdea-8b366f017bb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/burnscoding/tc/GradientFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core/testing/core.layout" beforeDir="false" afterPath="$PROJECT_DIR$/../core/testing/core.layout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core/testing/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../core/testing/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,31 +21,32 @@
     <session id="-616106300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6472" />
+          <entry key="java" value="8589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6472" />
+          <entry key="JAVA" value="8589" />
         </counts>
       </usages-collector>
     </session>
@@ -50,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Renderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="-590">
               <caret line="19" column="19" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,13 +65,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Gradient2DTerrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="379">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/GradientFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,7 +115,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>20</find>
+      <find>long</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>int</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/com/burnscoding/tc/Vector2D.java" />
         <option value="$PROJECT_DIR$/src/com/burnscoding/tc/Renderer.java" />
         <option value="$PROJECT_DIR$/src/com/burnscoding/tc/Gradient2DTerrain.java" />
+        <option value="$PROJECT_DIR$/src/com/burnscoding/tc/GradientFunction.java" />
       </list>
     </option>
   </component>
@@ -114,18 +142,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2385" />
+    <option name="x" value="1912" />
     <option name="y" value="-496" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,8 +182,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549498243611" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Card Game Chen" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550098063192" />
+    <property name="last_opened_file_path" value="D:/Backups/Silver_HP/ctrek/Documents/Programming/School/AP_Comp/Labs/PongBaseline" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -182,7 +211,20 @@
     <configuration name="Gradient2DTerrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.burnscoding.tc.Gradient2DTerrain" />
       <module name="Renderer" />
-      <option name="PROGRAM_PARAMETERS" value="../terrain_graph.csv ../latest.csv" />
+      <option name="PROGRAM_PARAMETERS" value="E:/terrain_graph.csv E:/latest.csv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.burnscoding.tc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradientFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.burnscoding.tc.GradientFunction" />
+      <module name="Renderer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.burnscoding.tc.*" />
@@ -209,10 +251,12 @@
     <list>
       <item itemvalue="Application.Renderer" />
       <item itemvalue="Application.Gradient2DTerrain" />
+      <item itemvalue="Application.GradientFunction" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Gradient2DTerrain" />
+        <item itemvalue="Application.GradientFunction" />
         <item itemvalue="Application.Renderer" />
       </list>
     </recent_temporary>
@@ -229,22 +273,24 @@
       <updated>1549052718235</updated>
       <workItem from="1549052721741" duration="11624000" />
       <workItem from="1549411580236" duration="10796000" />
-      <workItem from="1549555096089" duration="3230000" />
+      <workItem from="1549555096089" duration="3829000" />
+      <workItem from="1550008471998" duration="46000" />
+      <workItem from="1550028027063" duration="3805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25650000" />
+    <option name="totallyTimeSpent" value="30100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-496" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25159913" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25692964" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -252,9 +298,9 @@
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.33152762" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39869988" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -278,16 +324,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="19" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Vector2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -301,10 +337,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Gradient2DTerrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="379">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="19" column="19" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/burnscoding/tc/GradientFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
           </folding>
         </state>
       </provider>
