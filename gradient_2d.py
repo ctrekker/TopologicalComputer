@@ -46,7 +46,7 @@ for i in range(len(signals)):
     signals[i] = s
 
 
-frame_count = 1000
+frame_count = 10000
 
 gravity = Vector2D(0, -1)
 friction = 1.1
